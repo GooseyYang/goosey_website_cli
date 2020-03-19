@@ -1,0 +1,60 @@
+@import '../../../node_modules/normalize.css/normalize';
+@import './var';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+select {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: $default-gray2-color;
+}
+input::-moz-input-placeholder {
+  color: $default-gray2-color;
+}
+input::-ms-input-placeholder {
+  color: $default-gray2-color;
+}
+
+input {
+  padding: 0 1rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: $minor-font-color;
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
