@@ -1,28 +1,10 @@
-$primary-white-color: #fff;
-
-/* 黑色系列 */
-$primary-black-color: #000;
-$default-black1-color: #111;
-$default-black2-color: #222;
-$default-black3-color: #333;
-$default-black4-color: #444;
-
-/* 灰色系列 */
-$default-gray-color: #efeff4;
-$default-gray1-color: #dedede;
-$default-gray2-color: #ccc;
-$default-gray3-color: #aaa;
-$default-gray4-color: #999;
-$default-gray5-color: #888;
-
 /* 主色系列 */
-$primary-bg-color: #eee;
+$primary-main-color: #eee;
 $primary-main1-color: #6a4835;
 $primary-main2-color: #323232;
 $primary-main3-color: #eee2cb;
-$primary-font-color: #323232;
-$minor-font-color:#6a4835;
-$patch-font-color:#eee2cb;
+$primary-main4-color: #fff;
+$primary-main5-color: #999;
 
 /* 成功失败系列 */
 $default-success-color: #67c23a;
@@ -31,12 +13,3 @@ $default-error-color: #f56c6c;
 /* 默认border系列 */
 $default-border: 1px solid #eee2cb;
 $hover-border: 1px solid #6a4835;
-
-/* 字体大小系列 */
-$over-font-size: 64px;
-$large-font-size: 48px;
-$middle-font-size: 24px;
-$default-font-size: 20px;
-$small-font-size: 16px;
-$micro-font-size: 14px;
-$mini-font-size: 12px;

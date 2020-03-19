@@ -1,0 +1,193 @@
+/* =====================================   notice start   ===================================== */
+.notice {
+  float: right;
+  width: 40.625rem;
+  height: 16.875rem;
+  font-size: .875rem;
+}
+
+.notice__cate__li {
+  float: left;
+  width: 6.125rem;
+  height: 2rem;
+  line-height: 2rem;
+  vertical-align: middle;
+  text-align: center;
+  background: url('../images/cate_bg.png') no-repeat;
+  color: $primary-main1-color;
+}
+
+.notice__cate__li:hover,
+.notice__cate__ul > .active {
+  cursor: pointer;
+  background: url('../images/cate_bg_active.png') no-repeat;
+  color: $primary-main3-color;
+}
+
+.notice__list {
+  margin-top: .625rem;
+}
+
+.notice__line {
+  height: 1.875rem;
+  line-height: 1.875rem;
+  vertical-align: middle;
+}
+
+.notice__cate {
+  float: left;
+  letter-spacing: 0.5rem;
+}
+
+.notice__title {
+  float: left;
+  overflow: hidden;
+  width: 28.125rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+}
+
+.notice__date {
+  float: right;
+  font-size: .75rem;
+}
+
+.read__more {
+  width: 6.875rem;
+  height: 2.1875rem;
+  line-height: 2.1875rem;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 33.75rem;
+  margin-top: .625rem;
+  background-color: $primary-main1-color;
+  border-radius: .3125rem;
+  color: #eee2cb;
+}
+
+.read__more:hover {
+  cursor: pointer;
+  // TODO 箭头特效
+}
+/* =====================================   notice end   ===================================== */
+
+/* =====================================   left start   ===================================== */
+.left__list {
+  float: left;
+  width: 53.4375rem;
+}
+
+.list__title {
+  padding-left: 1.25rem;
+  border-left: .3125rem solid $primary-main1-color;
+  font-size: 1.25rem;
+  color: $primary-main1-color;
+}
+
+.list__block {
+  position: relative;
+  width: 100%;
+  height: 9.375rem;
+  padding-top: .625rem;
+  margin-top: 1.25rem;
+  background: $primary-main4-color;
+  border: .0625rem solid #ddd;
+  border-radius: .3125rem;
+}
+
+.list__block:hover {
+  cursor: pointer;
+  border-color: $primary-main1-color;
+}
+
+.list__block:hover .active__line{
+  display: block;
+}
+
+.article__img {
+  float: left;
+  width: 13.4375rem;
+  height: 7.8125rem;
+  background-color: blanchedalmond;
+}
+
+.article__details {
+  float: right;
+  width: 38.125rem;
+  height: 7.8125rem;
+  margin-right: .9375rem;
+  color: $primary-main1-color;
+}
+
+.article__title {
+  display: block;
+  overflow: hidden;
+  height: 2.1875rem;
+  line-height: 2.1875rem;
+}
+
+.article__date {
+  text-align: right;
+  font-size: .75rem;
+}
+
+.article__text {
+  overflow: hidden;
+  height: 2rem;
+  line-height: 1rem;
+  font-size: .75rem;
+  color: $primary-main5-color;
+}
+
+.article__label {
+  margin-top: .625rem;
+  font-size: .75rem;
+}
+
+.article__label__li {
+  float: left;
+  padding: 0 .5rem;
+  margin: 0 .2rem;
+  height: 1.125rem;
+  line-height: 1.125rem;
+  background-color: black;
+  border-radius: .3125rem;
+  color: $primary-main-color;
+}
+
+.line {
+  overflow: hidden;
+  margin-top: -0.5rem;
+}
+
+.line--1 {
+  display: inline-block;
+  width: .9375rem;
+  height: .1875rem;
+  background-color: $primary-main1-color;
+}
+
+.line--2 {
+  display: inline-block;
+  width: 35.5rem;
+  height: .0625rem;
+  margin: 0 .3125rem;
+  background-color: $primary-main1-color;
+}
+
+.active__line {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -1.5625rem;
+  width: .3125rem;
+  height: 3.125rem;
+  background-color: $primary-main1-color;
+  border-radius: .3125rem 0 0 .3125rem;
+}
+/* =====================================   left end   ===================================== */
+
+/* =====================================   right start   ===================================== */
+
+/* =====================================   right end   ===================================== */
