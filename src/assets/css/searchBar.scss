@@ -1,0 +1,24 @@
+.search__bar {
+  width: 80rem;
+  margin: 2.5rem auto;
+}
+
+.search__div {
+  width: 20rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  vertical-align: middle;
+  margin-left: 59.375rem;
+  padding-left: 1rem;
+  border: $default-border;
+  border-radius: 1rem;
+}
+
+.search__input {
+  width: 16.25rem;
+  outline:none;
+  border: none;
+  color: $minor-font-color;
+  font-size: .875rem;
+}
+
