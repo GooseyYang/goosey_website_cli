@@ -1,7 +1,7 @@
 <template>
   <el-carousel class="carousel">
     <el-carousel-item v-for="item in 1" :key="item">
-      <route-link to="/" class="small">{{ item }}</route-link>
+      <router-link to="/" class="small">{{ item }}</router-link>
     </el-carousel-item>
   </el-carousel>
 </template>
