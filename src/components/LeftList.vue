@@ -22,6 +22,10 @@
       </div>
       <div class="active__line"></div>
     </div>
+    <div class="more_article">
+      阅读更多
+      <i class="el-icon-right"></i>
+    </div>
   </div>
 </template>
 <script>
